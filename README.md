@@ -19,7 +19,9 @@ A Node.js implementation of RTMP/HTTP/WebSocket Media Server
  
 # Usage 
 ```bash
-npm install node-media-server
+npm install node-media-server  -> installation
+node app.js  -> start server
+npm install -g n  -> if revice error
 ```
 
 ```js
