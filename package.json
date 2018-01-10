@@ -1,5 +1,5 @@
 {
-  "name": "node-media-server",
+  "name": "node-media-server-kya",
   "version": "1.1.8",
   "description": "A Node.js implementation of RTMP Server",
   "main": "node_media_server.js",
