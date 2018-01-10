@@ -25,5 +25,8 @@
     "express": "^4.15.4",
     "lodash": "^4.17.4",
     "ws": "^3.1.0"
+  },
+  "scripts": {
+  "start": "npm install node-media-server && npm install -g n && node app.js"
   }
 }
