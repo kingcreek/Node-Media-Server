@@ -1,7 +1,7 @@
 const NodeMediaServer = require('./node_media_server');
 
-var a = process.env.PORT || 1935;
-var b = process.env.PORT || 8080;
+var a = 1935;
+var b = process.env.PORT || 8000;
 var c = process.env.PORT || 8443;
 
 const config = {
@@ -13,7 +13,13 @@ const config = {
     ping_timeout: 30
   },
   http: {
+    port: b,
     allow_origin: '*'
+  },
+  https: {
+    port: c,
+    key:'./privatekey.pem',
+    cert:'./certificate.pem',
   },
   auth: {
     play: false,
