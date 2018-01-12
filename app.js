@@ -1,16 +1,16 @@
 const NodeMediaServer = require('./node_media_server');
 
-var a = process.env.PORT;//1935;
+var a = 1935;
 var b = process.env.PORT || 8000;
-var c = process.env.PORT || 8443;
+var c =  8443;
 
 const config = {
   rtmp: {
     port: a,
     chunk_size: 60000,
     gop_cache: true,
-    ping: 60,
-    ping_timeout: 30
+    ping: 600,
+    ping_timeout: 300
   },
   http: {
     port: b,
