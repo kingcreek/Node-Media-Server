@@ -12,7 +12,7 @@ const config = {
     gop_cache: true,
     ping: 600,
     ping_timeout: 300
-  },
+  }/*,
   http: {
     port: b,
     allow_origin: '*'
@@ -30,7 +30,7 @@ const config = {
   apiAuth: {
     access: false,
     secret: 'nodemedia2017apikey'
-  }
+  }*/
 };
 
 
