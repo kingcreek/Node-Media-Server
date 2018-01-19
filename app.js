@@ -1,6 +1,6 @@
 const NodeMediaServer = require('./node_media_server');
 
-var a = process.env.PORT || 80;
+var a = process.env.PORT || 1935;
 var b = 8000; //8000
 var c =  8443; //8443
 
@@ -11,7 +11,7 @@ const config = {
     chunk_size: 60000,
     gop_cache: true,
     ping: 600,
-    ping_timeout: 3000
+    ping_timeout: 300
   }/*,
   http: {
     port: b,
