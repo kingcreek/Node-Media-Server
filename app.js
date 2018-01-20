@@ -1,6 +1,6 @@
 const NodeMediaServer = require('./node_media_server');
 
-var a = 1935; //1935
+var a = 8080; //1935
 var b = 8000; //8000
 var c =  8443; //8443
 
@@ -12,7 +12,7 @@ const config = {
     gop_cache: true,
     ping: 600,
     ping_timeout: 300
-  },
+  }/*,
   http: {
     port: b,
     allow_origin: '*'
@@ -30,7 +30,7 @@ const config = {
   apiAuth: {
     access: false,
     secret: 'nodemedia2017apikey'
-  }
+  }*/
 };
 
 
