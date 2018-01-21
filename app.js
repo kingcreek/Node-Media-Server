@@ -1,7 +1,7 @@
 const NodeMediaServer = require('./node_media_server');
 
 var a = process.env.PORT || 80; //1935
-var b = process.env.PORT || 8110; //8000
+var b = 8110; //8000
 var c =  8413; //8443
 
 
